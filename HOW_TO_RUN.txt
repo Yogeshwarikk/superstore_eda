@@ -1,0 +1,20 @@
+======================================
+  SUPERSTORE EDA — QUICK START GUIDE
+======================================
+
+1. INSTALL DEPENDENCIES
+   pip install -r requirements.txt
+
+2. RUN THE ANALYSIS
+   python superstore_eda.py
+
+3. OUTPUT
+   All 12 charts will be saved to:
+   ./superstore_charts/
+
+4. OPTIONAL — CONVERT TO JUPYTER NOTEBOOK
+   pip install jupytext
+   jupytext superstore_eda.py --to notebook
+   jupyter notebook superstore_eda.ipynb
+
+======================================
